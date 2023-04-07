@@ -1,0 +1,1 @@
+# spotify-type-artist-one-page-theme
