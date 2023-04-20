@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+
+*::selection {
+    background-color: rgba(30, 215, 96, 1);
+    color: rgb(25, 20, 20);
+}
+
+html {
+    --s: 125px;
+    --c1: rgb(25, 20, 20);
+    --c2: rgba(30, 215, 96, 1);
+
+    background:
+        linear-gradient(-26.56deg, var(--c1) 33%, var(--c2) 33.3% 66.6%, var(--c1) 67%) 0/var(--s) var(--s);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(30, 215, 96);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* -----------------------------------------------
+Name : Spotify type Artist One Page Theme
+Designer : Mikail Enes Kaya
+URL : www.mikaileneskaya.com
+----------------------------------------------- */
+
+.tag {
+    position: absolute;
+    top: 30px;
+    display: inline;
+    color: rgba(30, 215, 96, 1);
+    font-weight: 300;
+    background-color: rgb(25, 20, 20);
+    font-size: 12px;
+
+}
+
+.tag a {
+    text-decoration: none;
+    color: rgba(30, 215, 96, 1);
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 50px 35px;
+    border: 10px double rgba(30, 215, 96, 1);
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 35px;
+    box-shadow: 0 0 30px rgb(30, 215, 96, 0.5);
+}
+
+.card2 {
+    width: 95%;
+    max-width: 800px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 50px 35px;
+    border: 10px double rgba(30, 215, 96, 1);
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 35px;
+    box-shadow: 0 0 30px rgb(30, 215, 96, 0.5);
+}
+
+.card3 {
+    width: 95%;
+    position: relative;
+    max-width: 800px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    border: 10px double rgba(30, 215, 96, 1);
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 35px;
+    box-shadow: 0 0 30px rgb(30, 215, 96, 0.5);
+}
+
+.card4 {
+    width: 95%;
+    position: relative;
+    max-width: 650px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 50px 35px;
+    border: 10px double rgba(30, 215, 96, 1);
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 35px;
+    box-shadow: 0 0 30px rgb(30, 215, 96, 0.5);
+}
+
+.card1 img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 8px double rgb(30, 215, 96, 1);
+}
+
+.card1 h1 {
+    font-size: 30px;
+}
+
+.card1 small {
+    font-weight: 100;
+}
+
+.card2 img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    border: 8px double rgb(30, 215, 96, 1);
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.card2 img:hover {
+    transform: translate(-5px, -25px);
+    transition: 0.3s;
+}
+
+.card2 p {
+    text-align: start;
+    font-weight: 300;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: rgb(0, 215, 96, 1);
+    border: none;
+    border-radius: 20px;
+    color: rgb(25, 20, 20);
+    transition: 0.3s;
+}
+
+button:hover {
+    width: 140px;
+    background: rgb(255, 255, 255);
+    color: rgb(25, 20, 20);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.links ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.links ul li a:hover {
+    color: rgb(0, 215, 96, 1);
+}
+
+.page-contact-form input,
+.page-contact-form textarea {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.container textarea {
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 100%;
+    height: 90px;
+    color: rgb(0, 215, 96, 1);
+}
+
+.contact-form-widget {
+    max-width: 100%;
+    width: auto;
+}
+
+.container input {
+    color: rgb(0, 215, 96, 1);
+    background-color: rgb(255, 255, 255);
+}
+
+.container input:focus {
+    border: 3px solid rgb(0, 215, 96);
+}
+
+.container textarea:focus {
+    border: 3px solid rgb(0, 215, 96);
+}
+
+input.contact-form-button.contact-form-button-submit {
+    padding: 10px;
+    background: rgb(0, 215, 96, 1);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+input.contact-form-button.contact-form-button-submit:hover {
+    color: rgb(25, 20, 20);
+}
+
+span {
+    float: left;
+    color: rgb(0, 215, 96, 1);
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.buton1 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 50px;
+    left: 48%;
+    font-size: 55px;
+    transition: 0.2s;
+}
+
+.buton2 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 25px;
+    left: 48%;
+    font-size: 55px;
+    transition: 0.2s;
+}
+
+.buton3 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 10px;
+    left: 48%;
+    font-size: 55px;
+    transition: 0.2s;
+}
+
+.buton4 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 10px;
+    left: 48%;
+    font-size: 55px;
+    transition: 0.2s;
+}
+
+.buton1:hover {
+    filter: drop-shadow(0 3px 5px rgb(255, 255, 255));
+}
+
+.buton2:hover {
+    filter: drop-shadow(0 3px 5px rgb(255, 255, 255));
+}
+
+.buton3:hover {
+    filter: drop-shadow(0 3px 5px rgb(255, 255, 255));
+}
+
+.buton4:hover {
+    filter: drop-shadow(0 -3px 5px rgb(255, 255, 255));
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 75px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 20, 20);
+    opacity: 98.5%;
+    transition: 0.2s;
+}
+
+footer:hover {
+    filter: drop-shadow(0 -2px 5px rgb(255, 255, 255));
+}
+
+@media only screen and (max-width: 600px) {
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .card2 {
+        padding: 20px;
+    }
+
+    .card2 img {
+        max-width: 125px;
+        max-height: 125px;
+        border: 6px double rgb(30, 215, 96, 1);
+        margin-right: 8px;
+        transition: 0.3s;
+    }
+
+    .card2 img:hover {
+        transform: translate(-5px, -10px);
+        transition: 0.3s;
+    }
+
+    .buton1 {
+        left: 45%;
+    }
+
+    .buton2 {
+        bottom: 40px;
+        left: 45%;
+    }
+
+    .buton3 {
+        left: 45%;
+    }
+
+    .buton4 {
+        bottom: 25px;
+        left: 45%;
+    }
+
+    footer {
+        max-height: 55px;
+    }
+}
+
+@media screen and (min-height: 650px) {
+    .card2 img {
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+
+    .buton1 {
+        bottom: 60px;
+    }
+
+    .buton2 {
+        bottom: 50px;
+
+    }
+
+    .buton3 {
+        bottom: 20px;
+    }
+
+    .buton4 {
+        bottom: 30px;
+
+    }
+}
+
+@media screen and (min-height: 750px) {
+    .buton1 {
+        bottom: 100px;
+    }
+
+    .buton2 {
+        bottom: 100px;
+
+    }
+
+    .buton3 {
+        bottom: 100px;
+    }
+
+    .buton4 {
+        bottom: 90px;
+
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .buton1 {
+        bottom: 50px;
+    }
+
+    .buton2 {
+        bottom: 25px;
+
+    }
+
+    .buton3 {
+        bottom: 10px;
+    }
+
+    .buton4 {
+        bottom: 10px;
+
+    }
+}
